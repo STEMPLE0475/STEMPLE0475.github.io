@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Parcel Sandbox</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="src/styles.css" />
+  </head>
+
+  <body>
+    <div class="loginWindow" id="loginWindow">
+      <form class="loginForm">
+        <input type="text" class="loginText" placeholder="ID를 입력해주세요" required maxlength="10"></input>
+        </br></br>
+        <button class="loginButton">Next</button>
+      </form>
+    </div>
+
+    <div class="card hidden" id="card">
+      <span class="image"></span>
+      <div class="banner">
+        <span class="bannerText"></span>
+        <button class="button"></button>
+      </div>
+      <div class="Weather">
+        <div class="WeatherText">
+            <span class="city">City</span></br>
+            <span class="temp">Temp</span>
+            <span class="weather">Weather</span>
+        </div>
+      </div>
+      <div class="Time">
+        <span class="clock"></span>
+      </div>
+      <div class="Date">
+        <span class="date"></span>
+      </div>
+      
+      <div class="card4" class="todo-list">
+        <form id="todo-form">
+          <input class="todoInput"type="text" placeholder="Enter your To Do List!"></input>
+        </form>
+        <ul id="todo-list"></ul>
+      </div>
+        <!--<div class="todolistBanner"></div>-->
+      </div>
+      <span class="bottomBanner"></span>
+    </div>
+    <script src="src/app.js"></script>
+    <script src="src/clock.js"></script>
+    <script src="src/backgroundIMG.js"></script>
+    <script src="src/weather.js"></script>
+    <script src="src/todoList.js"></script>
+    <script src="src/login.js"></script>
+  </body>
+</html>

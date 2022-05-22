@@ -1,0 +1,190 @@
+@import url("https://fonts.googleapis.com/css2?family=Gothic+A1:wght@600&display=swap");
+
+.hidden {
+  display: none;
+}
+
+.loginWindow {
+  height: 620px;
+  width: 280px;
+  position: relative;
+  margin: auto;
+  background: linear-gradient(#222831, #393e46);
+  border-radius: 25px 25px 25px 25px;
+}
+
+.loginText {
+  width: 200px;
+  height: 50px;
+  position: relative;
+  top: 250px;
+  left: 36px;
+  background-color: rgba(255, 255, 255, 0.2);
+  border-width: medium;
+  border-style: solid;
+  border-color: white;
+  text-align: center;
+  border-radius: 50px;
+}
+
+.loginButton {
+  width: 70px;
+  height: 70px;
+  border-radius: 50px;
+  position: absolute;
+  background-color: #222831;
+  color: white;
+  bottom: 140px;
+  right: 2px;
+  text-align: center;
+  border-style: solid;
+  border-width: thick;
+  border-color: white;
+}
+
+body {
+  background-color: #696969;
+  font-family: "Gothic A1", sans-serif;
+  color: white;
+}
+
+.card {
+  height: 620px;
+  width: 280px;
+  position: relative;
+  margin: auto;
+  background: linear-gradient(#222831, #393e46);
+  box-shadow: 0px 0px 1px;
+  border-radius: 25px 25px 25px 25px;
+}
+
+.banner {
+  height: 40px;
+  width: 280px;
+  position: relative;
+  top: 0px;
+  margin: auto;
+  background: rgba(0, 173, 181, 0.8);
+  border-radius: 25px 25px 0px 0px;
+  box-shadow: 0px 3px 0px 0px white;
+}
+
+.bannerText {
+  position: relative;
+  left: 20px;
+  top: 15px;
+}
+
+.date {
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-family: "Gothic A1", sans-serif;
+  color: #eeeeee;
+}
+
+.clock {
+  position: absolute;
+  left: 5px;
+  top: 35px;
+  font-size: 28px;
+}
+
+.button {
+  height: 23px;
+  width: 23px;
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  border-style: hidden;
+  background: rgba(233, 233, 233, 0.6);
+  border-radius: 15px;
+}
+
+.Time {
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  top: 120px;
+  left: 10px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  z-index: 2;
+}
+
+.Weather {
+  height: 100px;
+  width: 150px;
+  position: absolute;
+  top: 120px;
+  left: 120px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.WeatherText {
+  font-size: 20px;
+  text-align: center;
+  position: relative;
+  top: 25px;
+}
+
+.todoButton {
+  position: absolute;
+  right: 20px;
+  height: 20px;
+  width: 20px;
+  background-color: rgba(255, 255, 255, 0);
+  border-radius: 25px;
+  border-style: none;
+}
+.Date {
+  height: 50px;
+  width: 230px;
+  position: absolute;
+  top: 60px;
+  left: 10px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.card4 {
+  height: 350px;
+  width: 260px;
+  position: absolute;
+  bottom: 10px;
+  left: 10px;
+  margin: auto;
+  background: rgba(255, 255, 255, 0.3);
+  border-radius: 15px 15px 15px 15px;
+  box-shadow: 1px 1px 5px 1px rgba(0, 0, 0, 0.1);
+}
+
+.todolistBanner {
+  height: 30px;
+  width: 260px;
+  position: absolute;
+  background: rgba(0, 173, 181, 0.8);
+  border-radius: 15px 15px 0px 0px;
+  box-shadow: 0px 3px 0px 0px white;
+}
+.todoInput {
+  height: 30px;
+  width: 253px;
+}
+
+.bottomBanner {
+  height: 20px;
+  width: 260px;
+  position: absolute;
+  left: 10px;
+  bottom: 20px;
+  background: rgba(0, 173, 181, 0);
+  border-radius: 10px 10px 10px 10px;
+}
